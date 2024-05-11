@@ -46,7 +46,7 @@ public:
 			return;
 		}
 		cout << "Popped value: " << top->data << endl;
-		
+		top = top->next; // update the top pointer to the next node
 	}
 
 };
