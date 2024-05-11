@@ -15,6 +15,12 @@ public:
 	}
 };
 
+// Stack class
+class stack
+{
+private:
+	Node* top;
+};
 int main()
 {
    
